@@ -2,8 +2,8 @@ const AboutMeetup = () => {
   return (
     <div class="section">
       <h1>About Meetup</h1>
-      <div class="content next-meetup">
-        <p>
+      <div class="content about-meetup">
+        <p class="about">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -14,7 +14,7 @@ const AboutMeetup = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-        <p>Socmed: Instagram.com/xxx </p>
+        <p class="socmed">Socmed: Instagram.com/xxx </p>
       </div>
     </div>
   );

@@ -126,3 +126,123 @@ code {
 .next-meetup > p {
   padding-bottom: 10px;
 }
+
+/* Next Meetup - End */
+
+/* About - Start */
+.about-meetup {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px 40px;
+  background-color: transparent;
+}
+
+.about {
+  padding-bottom: 10px;
+}
+
+/* About - End */
+
+/* Members - Start */
+.header-members {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px 0 15px;
+}
+
+.members-card {
+  display: flex;
+  align-items: center;
+}
+
+.members-card > img {
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+}
+
+.members-card > ul{
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.members-card > ul > li {
+  padding-bottom: 5px;
+}
+
+.members-card > ul > li > p > span {
+  padding-left: 30px;
+}
+
+/* Members - End */
+
+/* Card - Start */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  padding: 20px;
+  background-color: #dfe6e9;
+}
+
+.underline {
+  padding: 5px 0;
+  border-bottom: 2px solid #bac4c9;
+}
+
+.card-body {
+  padding-top: 10px;
+}
+
+.card-body > p > span {
+  font-weight: normal;
+  color: #454952;
+}
+.card-body > p {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.card-body > button {
+  padding: 10px 30px;
+  border: none;
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+}
+
+.card-body > button:hover {
+  background-color: #61dafb;
+  cursor: pointer;
+}
+
+/* Card - End */
+
+/* Cards Column - Start */
+.card-container {
+  display: flex;
+  margin: 10px 40px;
+  justify-content: space-between;
+}
+
+.past-meetup > .underline {
+  padding: 5px 0;
+  border-bottom: 2px solid #bac4c9;
+  margin: 10px 40px 30px;
+}
+
+/* Cards Column - End */
+
+/* Footer - Start */
+footer {
+  font-weight: bold;
+  color: #bac4c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+}
